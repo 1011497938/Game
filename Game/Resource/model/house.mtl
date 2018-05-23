@@ -1,0 +1,8 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# 创建的文件:16.01.2018 02:25:57
+
+newmtl Desert_Building_02_mat
+	maps\Desert_Building_02_D.tga
+
+newmtl Building_002_01_in_D_Mat
+	maps\Building_002_01_in_D.tga

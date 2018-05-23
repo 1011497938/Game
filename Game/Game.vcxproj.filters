@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{21482e0a-d816-4b4d-a499-a12c6bafffe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ground">
+      <UniqueIdentifier>{3dccab53-e343-41d5-a838-750d7ed1ebf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skybox">
+      <UniqueIdentifier>{978f01c5-b4ee-4f6c-9bcd-1d546cd337de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Magic">
+      <UniqueIdentifier>{52e2f041-e4da-4763-9d7f-5d2d96875a3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="texture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="callback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\animModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\fbxmodel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="obb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\baseModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="skybox\skybox.h">
+      <Filter>Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground\fractal.h">
+      <Filter>Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground\ground.h">
+      <Filter>Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\objModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Magic\MagicBall.h">
+      <Filter>Magic</Filter>
+    </ClInclude>
+    <ClInclude Include="Magic\particle.h">
+      <Filter>Magic</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground\enviromentObj.h">
+      <Filter>Ground</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="texture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="resource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="callback.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\animModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\fbxModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="obb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\baseModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="skybox\skybox.cpp">
+      <Filter>Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground\fractal.cpp">
+      <Filter>Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground\ground.cpp">
+      <Filter>Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\objModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Magic\Magicball.cpp">
+      <Filter>Magic</Filter>
+    </ClCompile>
+    <ClCompile Include="Magic\particle.cpp">
+      <Filter>Magic</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
